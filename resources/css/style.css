@@ -1,0 +1,30 @@
+html{
+
+  border: 2pt solid black
+}
+
+header{
+  display: flex;
+  background-color: white;
+  height: 64px;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav li{
+  display: inline;
+  margin-right: 24px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  font-size: 32px;
+}
+
+.logo img{
+  height: 50px;
+  width: auto;
+}
